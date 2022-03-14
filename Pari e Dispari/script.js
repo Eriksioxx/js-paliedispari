@@ -28,15 +28,18 @@ console.log('La somma dei due numeri è:', somma);
 
 // Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 
+let somma = sommaPariODispari()
 
+function sommaPariODispari(pippo) {
 
-function sommaPariODispari()
-
-if (somma % 2 !== 0) {
-    console.log('La somma è Dispari');
-} else {
-    console.log('La somma è Pari');
+    if (somma % 2 !== 0) {
+        console.log('La somma è Dispari');
+    } else {
+        console.log('La somma è Pari');
+    }
+    return pippo;
 }
+
 
 
 
