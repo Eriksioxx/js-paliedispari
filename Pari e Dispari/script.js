@@ -26,7 +26,7 @@ console.log('Il computer ha scelto:', computer);
 function sommaPariODispari(utente, computer) {
 
     const somma = utente + computer;
-    console.log(somma);
+    console.log('la somma dei due numeri è:', somma);
 
     if (somma % 2 !== 0) {
         console.log('la somma è Dispari');
