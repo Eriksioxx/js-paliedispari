@@ -30,6 +30,8 @@ console.log('La somma dei due numeri è:', somma);
 
 
 
+function sommaPariODispari()
+
 if (somma % 2 !== 0) {
     console.log('La somma è Dispari');
 } else {
